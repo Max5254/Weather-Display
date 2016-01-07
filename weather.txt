@@ -1,0 +1,525 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"NY",
+		"city":"Trumansburg",
+		"tz_short":"EDT",
+		"tz_long":"America/New_York",
+		"lat":"42.51746750",
+		"lon":"-76.64676666",
+		"zip":"14886",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:14886.1.99999",
+		"requesturl":"US/NY/Trumansburg.html",
+		"wuiurl":"http://www.wunderground.com/US/NY/Trumansburg.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Ithaca", "state":"NY", "country":"US", "icao":"KITH", "lat":"42.49082947", "lon":"-76.45832825" }
+		,{ "city":"Penn Yan", "state":"NY", "country":"US", "icao":"KPEO", "lat":"42.64393997", "lon":"-77.05301666" }
+		,{ "city":"Cortland County-chase Field", "state":"NY", "country":"US", "icao":"KN03", "lat":"42.59264374", "lon":"-76.21488190" }
+		,{ "city":"Elmira", "state":"NY", "country":"US", "icao":"KELM", "lat":"42.15988922", "lon":"-76.89160919" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Ulysses",
+		"city":"Trumansburg",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYTRUMA3",
+		"lat":42.494045,
+		"lon":-76.654037,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Trumansburg",
+		"city":"Trumansburg",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYTRUMA2",
+		"lat":42.534744,
+		"lon":-76.676079,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Cayuga Nature Center",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC15",
+		"lat":42.518929,
+		"lon":-76.555588,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Bundy Road",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC30",
+		"lat":42.457577,
+		"lon":-76.548820,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Kevin\u0027s SW Cayuga Lake",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC20",
+		"lat":42.467068,
+		"lon":-76.525787,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Ecovillage at Ithaca",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC7",
+		"lat":42.441879,
+		"lon":-76.542130,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Fall Creek Neighborhood",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC1",
+		"lat":42.450733,
+		"lon":-76.502480,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Airy Acres Vineyard",
+		"city":"Interlaken",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYINTER7",
+		"lat":42.636280,
+		"lon":-76.725044,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Triphammer Road",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC36",
+		"lat":42.461136,
+		"lon":-76.482384,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Dairy One",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC26",
+		"lat":42.488552,
+		"lon":-76.468361,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Cascadilla Park Road",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC25",
+		"lat":42.443344,
+		"lon":-76.493774,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Cornell Tjaden Roof",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC38",
+		"lat":42.450882,
+		"lon":-76.485161,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Schuyler",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC28",
+		"lat":42.439995,
+		"lon":-76.494057,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Schuyler Place",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC27",
+		"lat":42.440620,
+		"lon":-76.492188,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Belle Sherman",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC21",
+		"lat":42.439610,
+		"lon":-76.476700,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Fessenden Farms",
+		"city":"King Ferry",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYKINGF2",
+		"lat":42.668941,
+		"lon":-76.619492,
+		"distance_km":16,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Elkendale Farms",
+		"city":"Locke",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYLOCKE8",
+		"lat":42.636490,
+		"lon":-76.504944,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Hector",
+		"city":"Hector",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYHECTO1",
+		"lat":42.489964,
+		"lon":-76.869774,
+		"distance_km":18,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Standing Stone Vineyards",
+		"city":"Hector",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYHECTO2",
+		"lat":42.544102,
+		"lon":-76.872833,
+		"distance_km":18,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Southwoods",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC32",
+		"lat":42.403282,
+		"lon":-76.471291,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Ellis Hollow",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC24",
+		"lat":42.429955,
+		"lon":-76.436317,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Muzzy Rd, Danby NY",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC17",
+		"lat":42.384064,
+		"lon":-76.480530,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Hickory Highlands",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC22",
+		"lat":42.442902,
+		"lon":-76.414261,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Updike/Nelson corner",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC33",
+		"lat":42.387897,
+		"lon":-76.462738,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Lakemont",
+		"city":"Dundee",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYDUNDE5",
+		"lat":42.511093,
+		"lon":-76.915512,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"Nelson Rd, Danby/Ithaca NY",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC29",
+		"lat":42.371052,
+		"lon":-76.452789,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"Upstate newyork",
+		"city":"Odessa",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYODESS2",
+		"lat":42.335579,
+		"lon":-76.791473,
+		"distance_km":23,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"Wiemer Vineyards",
+		"city":"Dundee",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYDUNDE4",
+		"lat":42.570805,
+		"lon":-76.928078,
+		"distance_km":23,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"Steventown Hill",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC35",
+		"lat":42.368801,
+		"lon":-76.432480,
+		"distance_km":24,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"Ellis Hollow Center",
+		"city":"Ithaca",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYITHAC23",
+		"lat":42.422668,
+		"lon":-76.376457,
+		"distance_km":24,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"Rural Newfield - near Fog Nob",
+		"city":"Newfield",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYNEWYO323",
+		"lat":42.296322,
+		"lon":-76.606697,
+		"distance_km":24,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"Owego Street",
+		"city":"Montour Falls",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYMONTO4",
+		"lat":42.344181,
+		"lon":-76.843765,
+		"distance_km":25,
+		"distance_mi":15
+		},
+		{
+		"neighborhood":"Roach Farm",
+		"city":"Venice Center",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYVENIC3",
+		"lat":42.725475,
+		"lon":-76.519821,
+		"distance_km":25,
+		"distance_mi":15
+		},
+		{
+		"neighborhood":"Yellow Barn Rd - Dryden, NY",
+		"city":"Freeville",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYFREEV9",
+		"lat":42.467346,
+		"lon":-76.343407,
+		"distance_km":25,
+		"distance_mi":15
+		},
+		{
+		"neighborhood":"NYS Route 224",
+		"city":"Cayuta",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYCAYUT2",
+		"lat":42.293884,
+		"lon":-76.718498,
+		"distance_km":25,
+		"distance_mi":15
+		},
+		{
+		"neighborhood":"Thompson Vegetable Research Farm",
+		"city":"Freeville",
+		"state":"NY",
+		"country":"US",
+		"id":"KNYFREEV7",
+		"lat":42.519123,
+		"lon":-76.331161,
+		"distance_km":25,
+		"distance_mi":15
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Trumansburg, NY",
+		"city":"Trumansburg",
+		"state":"NY",
+		"state_name":"New York",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"14886",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"42.51746750",
+		"longitude":"-76.64676666",
+		"elevation":"306.00000000"
+		},
+		"observation_location": {
+		"full":"Ulysses, Trumansburg, New York",
+		"city":"Ulysses, Trumansburg",
+		"state":"New York",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"42.494045",
+		"longitude":"-76.654037",
+		"elevation":"1076 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KNYTRUMA3",
+		"observation_time":"Last Updated on October 31, 12:10 PM EDT",
+		"observation_time_rfc822":"Sat, 31 Oct 2015 12:10:14 -0400",
+		"observation_epoch":"1446307814",
+		"local_time_rfc822":"Sat, 31 Oct 2015 12:10:35 -0400",
+		"local_epoch":"1446307835",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Partly Cloudy",
+		"temperature_string":"48.4 F (9.1 C)",
+		"temp_f":48.4,
+		"temp_c":9.1,
+		"relative_humidity":"55%",
+		"wind_string":"From the West at 2.2 MPH Gusting to 5.4 MPH",
+		"wind_dir":"West",
+		"wind_degrees":264,
+		"wind_mph":2.2,
+		"wind_gust_mph":"5.4",
+		"wind_kph":3.5,
+		"wind_gust_kph":"8.7",
+		"pressure_mb":"1023",
+		"pressure_in":"30.20",
+		"pressure_trend":"-",
+		"dewpoint_string":"33 F (1 C)",
+		"dewpoint_f":33,
+		"dewpoint_c":1,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"48 F (9 C)",
+		"windchill_f":"48",
+		"windchill_c":"9",
+		"feelslike_string":"48 F (9 C)",
+		"feelslike_f":"48",
+		"feelslike_c":"9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"4","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":" in ( mm)",
+		"precip_today_in":"",
+		"precip_today_metric":"--",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/NY/Trumansburg.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNYTRUMA3",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.494045,-76.654037",
+		"nowcast":""
+	}
+}
